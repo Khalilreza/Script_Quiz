@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testCases>
+  <test>
+    <testId>15Seconds_TulumNoPower_200Count</testId>
+    <iterations>200</iterations>
+    <speed>50</speed>
+    <connected>15</connected>
+    <disconnected>10</disconnected>
+    <bounceTest>false</bounceTest>
+    <bounceCount>1</bounceCount>
+    <bounceInsertLen>750</bounceInsertLen>
+    <ArrivalPerf>false</ArrivalPerf>
+    <StutterTest>false</StutterTest>
+    <StutterCount>1</StutterCount>
+    <StutterInsertLen>775</StutterInsertLen> 
+    <set_batterystate>false</set_batterystate>
+    <set_batterytimeout>12</set_batterytimeout>
+    <Bluetooth_Active>true</Bluetooth_Active>
+    <Bluetooth_COM_Port>COM3</Bluetooth_COM_Port>
+    <aux_logging_on>false</aux_logging_on>
+    <aux_read_count>0</aux_read_count>
+    <aux_fail_on>false</aux_fail_on>
+    <aux_log_iteration>0</aux_log_iteration>
+    <reg_cadence>10</reg_cadence>
+    <reg_log_data>false</reg_log_data>
+    <reg_log_DP_data>false</reg_log_DP_data>
+    <set_powerstate>false</set_powerstate>
+    <sleep_timeout>1</sleep_timeout>
+    <sleep_plugged>true</sleep_plugged>
+    <sleep_state>1</sleep_state>
+    <heart_beat>false</heart_beat>
+    <fail_on_heart_beat>false</fail_on_heart_beat>
+    <wait_on_heart_beat>-1</wait_on_heart_beat>
+    <enumerated>true</enumerated>
+    <sleepms>20000</sleepms>
+    <VIDList>
+      <VID>045e</VID>
+    </VIDList>
+    <PIDList>
+      <PID>094d</PID>
+    </PIDList>
+    <SetCheckMonitorOn>true</SetCheckMonitorOn>
+    <CameraNameArray>
+      <Camera>Microsoft LifeCam HD-3000</Camera>
+    </CameraNameArray>
+    <beep>true</beep>
+    <logging>true</logging>
+    <logname>15Seconds_TulumNoPower_200Count</logname>
+    <minilog>true</minilog>
+    <csvlog>true</csvlog>
+    <leave_plugged>true</leave_plugged>
+    <on_fail>
+      <execute></execute>
+      <arguments></arguments>
+    </on_fail>
+  </test>
+</testCases>
